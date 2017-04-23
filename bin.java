@@ -14,7 +14,7 @@ DataOutputStream d=new DataOutputStream(clsct.getOutputStream());
 System.out.println("enter the weight of the bin in kgs");
 String str=n.readLine();
 int a = Integer.parseInt(str);
-if(a>=13){
+if(a>=32){
 d.writeBytes("SJT BIN IS FULL AND WEIGHT IS"+a+"kgs");
 }
 else{
