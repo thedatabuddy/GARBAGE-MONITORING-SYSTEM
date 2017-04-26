@@ -30,7 +30,7 @@ l1=new Label("Login ID");
 l2=new Label("Password");
 l8=new Label("Captcha");
 Random rand = new Random();
-int cap = rand.nextInt(8999) + 1000;
+int cap = rand.nextInt(899) + 10;
 l9=new Label(Integer.toString(cap));
 t1=new TextField();
 t2=new TextField();
@@ -66,7 +66,7 @@ b10.addActionListener(new ActionListener(){
 public void actionPerformed(ActionEvent E)
 {
 Random rand = new Random();
-int cap = rand.nextInt(8888) + 1111;
+int cap = rand.nextInt(888) + 111;
 l9.setText(Integer.toString(cap));}
 });
 b.addActionListener(new ActionListener(){
