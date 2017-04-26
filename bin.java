@@ -18,7 +18,10 @@ if(a>=32){
 d.writeBytes("SJT BIN IS FULL AND WEIGHT IS"+a+"kgs");
 }
 else{
-d.writeBytes("SJT BIN IS NOT FULL WEIGHT IS"+a+"kgs");
+	float x;
+	x=a/32;
+	float y=x*100;
+d.writeBytes("Status of SJT BIN IS"+y+"%OF BIN IS OCCUPIED");
 }
 clsct.close();
 }
